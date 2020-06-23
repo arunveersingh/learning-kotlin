@@ -1,4 +1,4 @@
-import com.arunveersingh.DisplayFunctions;
+import com.arunveersingh.functionsinkotlin.DisplayFunctions;
 
 public class App {
     public static void main(String[] args) {

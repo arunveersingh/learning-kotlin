@@ -3,7 +3,7 @@
  */
 @file:JvmName("DisplayFunctions")
 
-package com.arunveersingh
+package com.arunveersingh.functionsinkotlin
 
 fun main(args: Array<String>){
     display("Hello, World from Java")

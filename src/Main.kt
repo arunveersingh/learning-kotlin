@@ -1,10 +1,10 @@
-import com.arunveersingh.Person
-import com.arunveersingh.PersonWC
+import com.arunveersingh.functionsinkotlin.Person
+import com.arunveersingh.functionsinkotlin.PersonWC
 import java.io.FileNotFoundException
 import java.io.FileReader
 import java.util.*
 
-fun main(args: Array<String>){
+fun main(args: Array<String>) {
     println("Hello, World")
 
     // var
@@ -27,15 +27,15 @@ fun main(args: Array<String>){
 
     var q = Question()
 
-    for (i in 1..10){
+    for (i in 1..10) {
         println(i)
     }
 
-    for (i in listOf<Int>(11, 12, 3, 4, 5)){
+    for (i in listOf<Int>(11, 12, 3, 4, 5)) {
         println("out of list $i")
     }
 
-    for (i in 1 downTo -10){
+    for (i in 1 downTo -10) {
         println("until $i")
     }
 
@@ -43,50 +43,50 @@ fun main(args: Array<String>){
     ages["Mango"] = 5
     ages["Apple"] = 20
 
-    for (i in ages){
+    for (i in ages) {
         println("from ages $i")
     }
 
-    for (i in ages.values){
+    for (i in ages.values) {
         println("from ages $i")
     }
 
-    for (i in ages.keys){
+    for (i in ages.keys) {
         println("from ages $i")
     }
 
-    for (i in ages.entries){
+    for (i in ages.entries) {
         println("from ages $i")
     }
 
     // here name is the key value pair
-    for (name in ages){
+    for (name in ages) {
         println("name: $name")
     }
 
     // here name is the key NOT pair
-    for ((name) in ages){
+    for ((name) in ages) {
         println("name: $name")
     }
 
     // here name is the key NOT pair
-    for ((name, age) in ages){
+    for ((name, age) in ages) {
         println("name: $name, age: $age")
     }
 
-    for ((index, element) in ages){
+    for ((index, element) in ages) {
         println("index of $element is $index")
     }
 
     var numbers = listOf<Int>(100, 300, 200)
 
-    for ((index, element) in numbers.withIndex()){
+    for ((index, element) in numbers.withIndex()) {
         println("index of $element is $index")
     }
 
     var range = '1'..'z'
 
-    for (value in range){
+    for (value in range) {
         println(value)
     }
 
@@ -96,15 +96,15 @@ fun main(args: Array<String>){
 
     try {
         reader.read()
-    }catch (e: FileNotFoundException){
+    } catch (e: FileNotFoundException) {
 
-    }finally {
+    } finally {
 
     }
 
 }
 
-fun printName(whateverIsInput: String) : Unit{
+fun printName(whateverIsInput: String): Unit {
     println("whateverIsInput: $whateverIsInput")
 }
 

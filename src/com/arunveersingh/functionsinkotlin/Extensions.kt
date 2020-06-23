@@ -1,4 +1,4 @@
-package com.arunveersingh
+package com.arunveersingh.functionsinkotlin
 
 fun main(){
     var text = "I am     a     text with      \t whitespace"

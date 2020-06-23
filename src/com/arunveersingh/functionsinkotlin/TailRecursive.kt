@@ -1,4 +1,4 @@
-package com.arunveersingh
+package com.arunveersingh.functionsinkotlin
 
 import java.math.BigInteger
 

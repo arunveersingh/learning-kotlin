@@ -1,4 +1,4 @@
-package com.arunveersingh
+package com.arunveersingh.functionsinkotlin
 
 class PersonWC(var name: String) {
     fun display(){
