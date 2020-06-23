@@ -14,7 +14,6 @@ fun main(args: Array<String>){
     m.whenn = Date(2017, 1, 1)
     m.who.add("Kevin")
 
-
     // with is not part of language, it is part of standard library!
     with(m){
         title = "Board Meeting"
@@ -27,5 +26,4 @@ fun main(args: Array<String>){
         whenn = Date(2017, 1, 1)
         who.add("Kevin")
     }
-
 }
