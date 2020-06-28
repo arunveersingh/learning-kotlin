@@ -1,4 +1,4 @@
-package com.arunveersingh.collections
+package com.arunveersingh.collections.kotlin
 
 fun main(args: Array<String>) {
     val ints = listOf<Int>(1, 2, 3, 4, 5, 6)
@@ -23,8 +23,10 @@ fun main(args: Array<String>) {
         println("Squared value: $i")
     }
 
-    val meetings = listOf(Meeting(1, "board meet"),
-        Meeting(2, "committee meeting"))
+    val meetings = listOf(
+        Meeting(1, "board meet"),
+        Meeting(2, "committee meeting")
+    )
 
     val titles = meetings.map { m -> m.title }
     for (t in titles){
