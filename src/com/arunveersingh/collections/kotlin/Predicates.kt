@@ -1,4 +1,4 @@
-package com.arunveersingh.collections
+package com.arunveersingh.collections.kotlin
 
 fun main(){
 
