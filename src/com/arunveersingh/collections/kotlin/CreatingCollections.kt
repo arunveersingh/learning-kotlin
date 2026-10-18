@@ -35,5 +35,4 @@ class Person(val age: Int) : Organizer {
     override fun processMeetings(meetings: MutableList<Meeting>?) {
         TODO("Not yet implemented")
     }
-
 }
